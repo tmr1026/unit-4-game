@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collectors</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+<div id = "wrapper">
+
+<h1><span>Crystal Collectors!<span></h1>
+
+	<div id="instructions">
+		<p> You will be given a random number at the start of the game.</p>
+		<p> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+		<p> You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number. </p>
+		<p> Each time the game starts, the game will change the values of each crystal.</p>
+	</div>
+
+	<div class = "container">
+		<div id="randomNumber">
+			<h2>Number to Guess: <span class="value"></span></h2> 	
+		</div>
+
+		<div id="winlose">
+			<h3><span id="status"></span></h3>
+			<h3>Wins: <span id="wins"></span></h3>
+			<h3>Losses: <span id="losses"></span> </h3>
+		</div>
+	</div>
+
+	
+	<div id="crystals">
+        <div class="col-md-12 crystals">
+			<p class="subtitle">Click on the Crystals to Play!</p>
+			<br/>
+			<img src="assets/images/ruby.jpg" id="red" width="100" height="100" alt="Red Crystal"/>
+			<br/>
+			<img src="assets/images/sapphire.jpg" id="blue" width="100" height="100" alt="Blue Crystal"/>
+			<br/>
+			<img src="assets/images/opal-060.png" id="white" width="100" height="100" alt="White Crystal"/>
+			<br/>
+			<img src="assets/images/emerald.jpg" id="green" width="100" height="100" alt="Green Crystal"/>
+    </div>
+
+	<div id ="totalScore">
+		<h2 id = "totalscore">Your Total Score is: <span id ="yourScore">0</span></h2>
+		
+	</div>
+
+</div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+</body>
+</html>
+
