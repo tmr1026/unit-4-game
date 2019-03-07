@@ -1,0 +1,54 @@
+body{
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.subtitle, h1{
+    font-size: 30px;
+    color: purple; 
+}
+
+#instructions{
+    background-color:rgb(137, 34, 185);
+}
+
+#randomNumber{		
+    background:violet;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    text-decoration: bold;
+    margin-top: 30px;
+}
+	
+#totalscore{
+    background: violet;
+    display: inline-flex;
+    width: 30%;
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: bold;
+}
+
+#winlose{
+    background-color:violet; 
+    display: inline-block;
+    width: 30%;
+    padding: 30px;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: bold;
+}
+
+#crystals{
+    object-position: center;
+    display: inline-block;
+    margin: auto;
+}
+
+	
+
+	
+
